@@ -1,0 +1,40 @@
+# Build directories
+build/
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Rust
+Cargo.lock
+**/*.rs.bk
+
+# C++ build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Dependency directories
+deps/
+lib/
+bin/
+
+# Test artifacts
+*.log
+*.trs
+Testing/
+
+# Generated files
+*.generated.*
